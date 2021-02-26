@@ -87,10 +87,10 @@ nav {
 .video-sizing {
     text-align: center;
     width: 750px;
-    margin: 1.5rem auto;
+    margin: 3rem auto;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
     .video-sizing {
         width: 100%;
     }
@@ -124,7 +124,7 @@ iframe {
     .pricing-item {
         border: solid 1px rgb(6, 68, 148);
         text-align: center;
-        margin: 1rem 0rem;
+        margin: 1rem .5rem;
         padding: 5px;
     }
 }
@@ -160,4 +160,28 @@ button {
 .price-container {
     display:flex;
     justify-content: center;
+    margin-bottom: 3rem;
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(241, 241, 241);
+    height: x;
+    background-color: rgb(6, 68, 148);
+}
+
+#footer-title {
+    padding: 1.5rem 0rem;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.social-container img {
+    width: 60px;
+
 }

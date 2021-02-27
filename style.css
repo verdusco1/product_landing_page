@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
 nav {
     background-color: rgb(6, 68, 148);
 }
+
+.navbar-brand {
+    font-family: 'Reggae One', cursive;
+
+}
+
 .navbar-nav  {
     margin-left: auto;
 }
@@ -57,6 +65,7 @@ nav {
 }
 .banner-item {
     display:flex;
+    justify-content: center;
     margin:  1rem;
 }
 
